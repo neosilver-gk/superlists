@@ -26,7 +26,7 @@ class ItemModelTest(TestCase):
         self.assertEqual(first_saved_item.text, first_item.text)
         self.assertEqual(second_saved_item.text, second_item.text)
 
-        
+
 class HomePageTest(TestCase):
 
     def test_root_url_resolves_to_home_page_view(self):
